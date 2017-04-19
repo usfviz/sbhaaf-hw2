@@ -3,7 +3,6 @@ library(ggvis)
 library(reshape2)
 library(dplyr)
 
-setwd('~/MSAN/Data Visualization/hw2/')
 fertility <- read.csv('API_SP.DYN.TFRT.IN_DS2_en_csv_v2/API_SP.DYN.TFRT.IN_DS2_en_csv_v2.csv', header = T)
 life_exp <- read.csv('API_SP.DYN.LE00.IN_DS2_en_csv_v2/API_SP.DYN.LE00.IN_DS2_en_csv_v2.csv', header = T)[,c(1,5:59)]
 meta <- read.csv('API_SP.DYN.LE00.IN_DS2_en_csv_v2/Metadata_Country_API_SP.DYN.LE00.IN_DS2_en_csv_v2.csv')
